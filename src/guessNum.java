@@ -17,7 +17,7 @@ public class guessNum {
                 return;
             } else if (guessNum < num) {
                 System.out.println("Toooo Small");
-            } else if (guessNum > num) {
+            } else {
                 System.out.println("Toooo Large");
             }
         }
